@@ -5,7 +5,7 @@ metadata:
   name: nginx-deployment-task5
   namespace: default
 spec:
-  replicas: 
+  replicas: 1
   selector:
     matchLabels:
       app: nginx-task5
